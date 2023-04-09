@@ -1,0 +1,12 @@
+@use "../abstracts" as a;
+
+h2 {
+  font-weight: 700;
+  font-size: 0.95rem;
+  @include a.media-breakpoint-up(50em) {
+    font-size: 1.1rem;
+  }
+  @include a.media-breakpoint-up(62.5em) {
+    font-size: 1.25rem;
+  }
+}

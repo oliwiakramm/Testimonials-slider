@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        margin-top: 2rem;
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="visually-hidden">Testimonail slider</h1>
+      <div class="testimonials">
+        <figure class="testimonial tanya active">
+          <div class="testimonial__img">
+            <img src="images/image-tanya.jpg" alt="Tanya Sinclair" />
+          </div>
+          <div class="testimonial__text">
+            <blockquote class="testimonial__blockquote">
+              <p class="testimonial__quote">
+                “ I’ve been interested in coding for a while but never taken the
+                jump, until now. I couldn’t recommend this course enough. I’m
+                now in the job of my dreams and so excited about the future. ”
+              </p>
+            </blockquote>
+            <figcaption class="testimonial__info">
+              <h2 class="testimonial__name">Tanya Sinclair</h2>
+              <p class="testimonial__occupation">UX Engineer</p>
+            </figcaption>
+          </div>
+        </figure>
+
+        <figure class="testimonial john">
+          <div class="testimonial__img">
+            <img src="images/image-john.jpg" alt="John Tarkpor" />
+          </div>
+          <div class="testimonial__text">
+            <blockquote class="testimonial__blockquote">
+              <p class="testimonial__quote">
+                “ If you want to lay the best foundation possible I’d recommend
+                taking this course. The depth the instructors go into is
+                incredible. I now feel so confident about starting up as a
+                professional developer. ”
+              </p>
+            </blockquote>
+            <figcaption class="testimonial__info">
+              <h2 class="testimonial__name">John Tarkpor</h2>
+              <p class="testimonial__occupation">Junior Front-end Developer</p>
+            </figcaption>
+          </div>
+        </figure>
+        <div class="testimonial__btns">
+          <button class="testimonial__btn" id="prevBtn">
+            <span class="visually-hidden">previous testimonial</span>
+            <img src="images/icon-prev.svg" alt="" aria-hidden="true" />
+          </button>
+          <button class="testimonial__btn" id="nextBtn">
+            <span class="visually-hidden">next testimonial</span>
+            <img src="images/icon-next.svg" alt="" aria-hidden="true" />
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/oliwiakramm">Hoshiko</a>.
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

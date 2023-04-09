@@ -1,0 +1,23 @@
+@use "../abstracts" as a;
+body {
+  min-height: 100vh;
+  font-family: a.$main-font;
+  background-image: url(../../images/pattern-curve.svg);
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: 20rem 5rem;
+  @include a.media-breakpoint-up(75em) {
+    background-size: 38.1rem 9.65rem;
+  }
+}
+
+.main {
+  padding-top: 1rem;
+  margin: 0 1.5rem;
+  @include a.media-breakpoint-up(48em) {
+    padding-top: 8rem;
+  }
+  @include a.media-breakpoint-up(69em) {
+    padding-top: 3.3rem;
+  }
+}
