@@ -4,7 +4,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-7px);
+    transform: translateY(-1.5%);
   }
   100% {
     transform: translateY(0);
@@ -90,7 +90,7 @@ th {
 .visually-hidden {
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
-  clip-path: inset(50%);
+          clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
@@ -210,7 +210,7 @@ h2 {
 }
 .testimonial__img img {
   border-radius: 7px;
-  animation: move 3.5s ease-in-out infinite;
+  animation: move 5s ease-in-out infinite;
 }
 .testimonial__text {
   text-align: center;
@@ -315,4 +315,4 @@ h2 {
   .testimonial__btn {
     padding: 1.1rem 1.4rem;
   }
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
