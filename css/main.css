@@ -90,7 +90,7 @@ th {
 .visually-hidden {
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
@@ -101,7 +101,7 @@ th {
 body {
   min-height: 100vh;
   font-family: "Inter", sans-serif;
-  background-image: url(../../images/pattern-curve.svg);
+  background-image: url(../images/pattern-curve.svg);
   background-repeat: no-repeat;
   background-position: 0% 100%;
   background-size: 20rem 5rem;
@@ -315,4 +315,4 @@ h2 {
   .testimonial__btn {
     padding: 1.1rem 1.4rem;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
